@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 800px;
+  background-color: rgb(26, 25, 31);
 }
 
 code {
@@ -14,12 +16,49 @@ code {
 
 h1 {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  border: rgb(204, 211, 231);
+  border-style: ridge;
+  border-radius: 15px;
+  background-color: rgb(213, 255, 164);
+
 }
 
 h3 {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
+  border: rgb(204, 211, 231);
+  border-style: ridge;
+  border-radius: 15px;
+  background-color: rgb(213, 255, 164);
+}
+
+section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: rgb(204, 211, 231);
+  border-style: ridge;
+  border-radius: 15px;
+  background-color: rgb(213, 255, 164);
+}
+
+select {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: rgb(204, 211, 231);
+  border-style: ridge;
+  border-radius: 15px;
+  background-color: rgb(213, 255, 164);
+  margin-left: 350px;
+  width: 100px;
 }
